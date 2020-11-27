@@ -1,0 +1,34 @@
+public class LargestElement
+{
+	public static void main(String args[])
+	{
+		int arr[]={10,20,30,35,55,40,10,80};
+		int a=arr.length;
+		int Larger=0;
+		int SecondLarger=0;
+		for(int i=0;i<=arr.length;i++)
+		{
+			if(arr[i]>Larger)
+		     {
+				Larger=arr[i];
+	            
+				
+			     //while(true){
+			      //if(arr[i-1]<arr[i])
+                  //{
+				      //System.out.println(arr[i]);
+				      //SecondLarger=arr[i];
+				// System.out.println("this is second fina largest element in  the array"+SecondLarger);
+		
+				 //}
+			  
+              // break; 				
+			 }
+			//break;
+		 //}
+	//break;
+	//	}
+      System.out.println("this is final largest element in  the array"+Larger);	
+	  //System.out.println("this is second fina largest element in  the array"+SecondLarger);
+}
+}

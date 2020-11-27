@@ -1,0 +1,26 @@
+public class BinOct
+{
+	public static void main(String args[])
+	{
+		int a=1010,b=1110,c=0001;binary_val
+		System.out.println("the Decimal value of binary number"+Bin(a));
+		System.out.println("the Decimal value of binary number"+Bin(b));
+		System.out.println("the Decimal value of binary number"+Bin(c));
+	}
+	static int Bin(int Binary)
+	{
+		int x=Binary,base=1,Deci=0;
+		while(x>0)
+		{
+			int rem=x%8;
+			Deci=Deci+rem*base;
+			x=x/8;
+			base=base*2;
+		}
+	
+			return x;
+	}
+		
+	}
+	
+	
