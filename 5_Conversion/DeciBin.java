@@ -9,7 +9,7 @@ public class DeciBin
 	static String Bin(int Deci)
 	{
 	   int rem=0;
-	   char BinChar[]={'0','1','2','3','4','5','6','7'};
+	   char BinChar[]={'0','1'};
        String Bin="";	   
 		while(Deci>0)
 		{

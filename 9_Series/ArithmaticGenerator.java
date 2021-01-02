@@ -4,9 +4,7 @@ public class ArithmaticGenerator
 	public static void main(String args[])
 	{
 		Scanner sc=new Scanner(System.in);
-		int a=sc.nextInt();
-		int d=sc.nextInt();
-		int n=sc.nextInt();
+		int a=1,d=1,n=10;
 	    ArithGene(a,n,d);
 		
 		
@@ -14,7 +12,7 @@ public class ArithmaticGenerator
 	}
 	static void ArithGene(int a,int n,int d)
 	{
-		int N=1,i;
+		int i,N=1;
 		for( i=1;i<=n;i++)
 		{
 			System.out.print(a+((N-1)*d)+" ");
